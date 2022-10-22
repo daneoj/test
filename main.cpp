@@ -1,6 +1,6 @@
 #include <iostream>
 
-int modify(int& num);
+void modify(int& num);
 
 int main() {
     int m = 10;
@@ -9,6 +9,6 @@ int main() {
     std::cout << "num after: " << m << "\n";
 } 
 
-int modify(int& num) {
+void modify(int& num) {
     num++;
 }
